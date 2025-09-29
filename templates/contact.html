@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block maincontent %}
+
+<div class="row">
+<div style="width: 48%; vertical-align: top;">
+  <p>You can contact me here.</p><br></br>
+  <div class="row">
+    <div class="coloured_brick" style="background-color:#33EEFF"></div> william-joseph.lastname symbol math.tu-freiberg.de
+  </div>
+  <br></br>
+  <div class="row">
+    <div class="coloured_brick" style="background-color:#33EEFF"></div> Faculty for Mathematics and Computer Science <br></br>
+    <div class="coloured_brick" style="background-color:#FFFFFF"></div> TU Freiberg<br></br>
+    <div class="coloured_brick" style="background-color:#FFFFFF"></div> Pr&uuml;ferstra&szlig;e 1, 09599 Freiberg, Germany<br></br>
+    <div class="coloured_brick" style="background-color:#FFFFFF"></div> Room 1.06, Universit&auml;tshauptgeb&auml;ude.
+  </div>
+</div>
+
+<div style="width: 48%">
+  <div class="fill">
+      <img src="{{ url_for('static',filename='imgs/morning_bottle.jpg') }}" style="width: 100%">
+  </div>
+</div>
+</div>
+
+{% endblock  %}

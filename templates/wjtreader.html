@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block maincontent %}
+
+<h3 style="text-align: center;">
+  {{ title }}
+</h3>
+
+<div id="story_block" style="white-space: pre-line; margin: 5%;line-height: 30px;">
+  {{ text|safe }}
+</div>
+
+{% endblock  %}
